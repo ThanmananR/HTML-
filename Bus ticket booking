@@ -1,77 +1,124 @@
-Index.html   
-<!DOCTYPE html>   
-<html>   
-<head>   
-  <title>Thanmanan Travels</title>   
-  <style>   
-    Body { font-family: Arial; text-align: center; background-color: #f0f8ff; }   
-    Nav a { margin: 15px; font-size: 18px; text-decoration: none; color: darkblue; }   
-    Img { width: 100%; height: 250px; object-fit: cover; }   
-    Form { margin-top: 20px; background: #fff; padding: 20px; display: inline-block; borderradius: 8px; }  </style>   
-</head>  <body>   
-  <nav>   
-    <a href=”home.html”>Home</a>   
-    <a href=”aboutus.html”>About Us</a>   
-    <a href=”reservation.html”>Reservation</a>   
-    <a href=”contactus.html”>Contact Us</a>   
-  </nav>   
-  <img src=”bus.jpg” alt=”Bus Banner”>   
-  <h2>Customer Information Form</h2>   
-  <form>   
-    <label>Name:</label><br><input type=”text”><br><br>   
-    <label>Email:</label><br><input type=”email”><br><br>   
-    <label>Phone:</label><br><input type=”tel”><br><br>   
-    <label>City:</label><br><input type=”text”><br><br>   
-    <input type=”submit” value=”Submit”></form>   
-</body>  </html>   
-   
-Home.html   
-<!DOCTYPE html>   
-<html>   
-<head>   
-  <title>Home</title> </head>   
-<body>   
-  <h1>Welcome to Our Bus Ticket Reservation System</h1>   
-  <p>You can book bus tickets easily from our website. Safe, Fast, and Reliable service.</p>   
-</body>  </html>   
-  Aboutus.html   
-<!DOCTYPE html>   
-<html>   
-<head>   
-  <title>About Us</title>  </head>   
-<body>   
-  <h1>About Our Travels</h1>   
-  <p>We are one of the leading travel companies providing comfortable and affordable bus services across the country. Our mission is to make your journey smooth and memorable.</p>  </body></html>   
-    Reservation.html   
-<!DOCTYPE html>   
-<html><head>   
-  <title>Bus Reservation</title>   
-</head><body>   
-  <h1>Bus Ticket Reservation</h1>    <form>   
-    <label>From:</label><br>   
-    <input type=”text”><br><br>   
-    <label>To:</label><br>   
-    <input type=”text”><br><br>   
-    <label>Date of Journey:</label><br>   
-    <input type=”date”><br><br>   
-    <label>Number of Seats:</label><br>   
-    <input type=”number”><br><br>   
-    <label>Bus Type:</label><br>   
-    <select>   
-      <option>AC</option>   
-      <option>Non-AC</option>   
-      <option>Sleeper</option>   
-      <option>Seater</option>   
-    </select><br><br>   
-    <input type=”submit” value=”Book Now”>   
-  </form></body></html>    
-Contactus.html   
-<!DOCTYPE html>   
-<html>  <head>   
-  <title>Contact Us</title>  </head>   
-<body>   
-  <h1>Contact Us</h1>    <p>Email: support@bustravels.com</p>   
-  <p>Phone: +91 8148214265</p>   
-  <p>Address: 123, Bus Street, Chennai, Tamil Nadu, India</p></body>   
-</html>   
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Thanmanan Travels</title>
+  <style>
+    body {
+      font-family: Arial;
+      text-align: center;
+      background-color: #f0f8ff;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      margin: 15px;
+      font-size: 18px;
+      text-decoration: none;
+      color: darkblue;
+    }
+    img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+    section {
+      padding: 30px 20px;
+      border-top: 2px solid #ccc;
+    }
+    form {
+      margin-top: 20px;
+      background: #fff;
+      padding: 20px;
+      display: inline-block;
+      border-radius: 8px;
+      text-align: left;
+    }
+    form input, form select {
+      width: 100%;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
 
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#aboutus">About Us</a>
+    <a href="#reservation">Reservation</a>
+    <a href="#contactus">Contact Us</a>
+    <a href="#customer">Customer Info</a>
+  </nav>
+
+  <img src="bus.jpg" alt="Bus Banner">
+
+  <!-- HOME SECTION -->
+  <section id="home">
+    <h1>Welcome to Thanmanan Travels</h1>
+    <p>You can book bus tickets easily from our website. Safe, Fast, and Reliable service.</p>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="aboutus">
+    <h1>About Thanmanan Travels</h1>
+    <p>We are one of the leading travel companies providing comfortable and affordable bus services across the country. Our mission is to make your journey smooth and memorable.</p>
+  </section>
+
+  <!-- RESERVATION SECTION -->
+  <section id="reservation">
+    <h1>Bus Ticket Reservation</h1>
+    <form>
+      <label>From:</label><br>
+      <input type="text"><br><br>
+
+      <label>To:</label><br>
+      <input type="text"><br><br>
+
+      <label>Date of Journey:</label><br>
+      <input type="date"><br><br>
+
+      <label>Number of Seats:</label><br>
+      <input type="number"><br><br>
+
+      <label>Bus Type:</label><br>
+      <select>
+        <option>AC</option>
+        <option>Non-AC</option>
+        <option>Sleeper</option>
+        <option>Seater</option>
+      </select><br><br>
+
+      <input type="submit" value="Book Now">
+    </form>
+  </section>
+
+  <!-- CONTACT US SECTION -->
+  <section id="contactus">
+    <h1>Contact Us</h1>
+    <p>Email: support@bustravels.com</p>
+    <p>Phone: +91 8148214265</p>
+    <p>Address: 123, Bus Street, Chennai, Tamil Nadu, India</p>
+  </section>
+
+  <!-- CUSTOMER INFO FORM -->
+  <section id="customer">
+    <h2>Customer Information Form</h2>
+    <form>
+      <label>Name:</label><br>
+      <input type="text"><br><br>
+
+      <label>Email:</label><br>
+      <input type="email"><br><br>
+
+      <label>Phone:</label><br>
+      <input type="tel"><br><br>
+
+      <label>City:</label><br>
+      <input type="text"><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+</body>
+</html>
